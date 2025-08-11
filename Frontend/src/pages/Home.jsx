@@ -45,7 +45,7 @@ export default function Home() {
   // Fetch files once
   const fetchFiles = async () => {
     try {
-      const res = await api.get('http://localhost:5000/api/files');
+      const res = await api.get('/files');
       const allFiles = res.data || [];
       setFiles(allFiles);
 
