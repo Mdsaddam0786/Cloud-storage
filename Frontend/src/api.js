@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://cloud-storage-production-9975.up.railway.app/', // ✅ match your backend
+  baseURL: 'https://cloud-storage-production-9975.up.railway.app', // ✅ match your backend
 });
 
 api.interceptors.request.use((config) => {
