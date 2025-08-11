@@ -13,7 +13,7 @@ app.use(express.json());
 // Middleware
 app.use(
   cors({
-    origin: 'https://cloud-storage-tawny.vercel.app3',
+    origin: 'https://cloud-storage-tawny.vercel.app',
     credentials: true,
   }),
 );
